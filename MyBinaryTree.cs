@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Binary_Search_Tree
+namespace BinarySearchTree
 {
     class MyBinaryTree<T> where T : IComparable<T>
     {
