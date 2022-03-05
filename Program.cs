@@ -1,23 +1,26 @@
-﻿// Create Binary Search Tree
-
-// Binary serach tree
-using System;
+﻿using System;
 
 namespace Binary_Search_Tree
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Binary search tree");
-
-            MyBinaryTree<int> myBinaryTree = new MyBinaryTree<int>(56);
-            myBinaryTree.Insert(56);
-            myBinaryTree.Insert(30);
-            myBinaryTree.Insert(70);
-
-            myBinaryTree.Display();
-
+            Console.WriteLine("Welcome to Binary Search Tree");
+            MyBinaryTree<int> MyBinaryTree = new MyBinaryTree<int>(56);
+            MyBinaryTree.Insert(30);
+            MyBinaryTree.Insert(70);
+            MyBinaryTree.Insert(22);
+            MyBinaryTree.Insert(40);
+            MyBinaryTree.Insert(60);
+            MyBinaryTree.Insert(95);
+            MyBinaryTree.Insert(15);
+            MyBinaryTree.Insert(65);
+            .Insert(3);
+            binarySearch.Insert(16);
+            binarySearch.Insert(65);
+            binarySearch.Insert(69);
+            binarySearch.Display();
         }
     }
 }
