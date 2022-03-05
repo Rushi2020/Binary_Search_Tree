@@ -7,20 +7,23 @@ namespace Binary_Search_Tree
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Binary Search Tree");
-            MyBinaryTree<int> MyBinaryTree = new MyBinaryTree<int>(56);
-            MyBinaryTree.Insert(30);
-            MyBinaryTree.Insert(70);
-            MyBinaryTree.Insert(22);
-            MyBinaryTree.Insert(40);
-            MyBinaryTree.Insert(60);
-            MyBinaryTree.Insert(95);
-            MyBinaryTree.Insert(15);
-            MyBinaryTree.Insert(65);
-            .Insert(3);
-            binarySearch.Insert(16);
-            binarySearch.Insert(65);
-            binarySearch.Insert(69);
-            binarySearch.Display();
+            MyBinaryTree<int> myBinaryTree = new MyBinaryTree<int>(56);
+            myBinaryTree.Insert(30);
+            myBinaryTree.Insert(70);
+            myBinaryTree.Insert(22);
+            myBinaryTree.Insert(40);
+            myBinaryTree.Insert(60);
+            myBinaryTree.Insert(95);
+            myBinaryTree.Insert(15);
+            myBinaryTree.Insert(65);
+            myBinaryTree.Insert(3);
+            myBinaryTree.Insert(16);
+            myBinaryTree.Insert(65);
+            myBinaryTree.Insert(69);
+            myBinaryTree.Display();
+
+            bool result = myBinaryTree.IfExists(63, myBinaryTree);
+            Console.WriteLine(result);
         }
     }
 }
